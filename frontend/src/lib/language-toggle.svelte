@@ -105,7 +105,7 @@ SPDX-License-Identifier: MPL-2.0
 			{
 				code: 'pt_BR',
 				flag: '🇧🇷',
-				name: 'Brazil'
+				name: 'Português (Brasil)'
 			},
 			{
 				code: 'ja',
@@ -130,7 +130,7 @@ SPDX-License-Identifier: MPL-2.0
 		]
 	}: Props = $props();
 	const get_selected_language = (): string => {
-		return localStorage.getItem('language');
+		return localStorage.getItem('language') ?? 'pt_BR';
 	};
 	let selected_language: string = $state();
 	onMount(() => {
@@ -152,7 +152,7 @@ SPDX-License-Identifier: MPL-2.0
 			set_language(selected_language);
 		}}
 		class="p-2 rounded-lg bg-gray-800 focus:ring-2 ring-blue-600 text-white"
-		aria-label="Language-Selector"
+		aria-label="Seletor de idioma"
 	>
 		{#each languages as lang}
 			<option value={lang.code}>{lang.flag} {lang.name} </option>

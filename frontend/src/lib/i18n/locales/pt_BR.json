@@ -307,6 +307,7 @@
         "right_click_to_delete": "Clique com o botão direito numa resposta para apagá-la!"
     },
     "dashboard": {
+        "create_quiz": "Criar um novo quiz",
         "search_for_own_quizzes": "Pesquisar pelos seus próprios quizzes",
         "views_n_plays": "Visualizações & Reproduções",
         "info_analytics": "As \"Reproduções\" mostram apenas a frequência com que o questionário foi iniciado (incluindo o utilizador), enquanto as \"Visualizações\" contam a frequência com que a página \"Visualizar\" foi visitada, pelo que também conta os bots (peço desculpa).",
@@ -360,6 +361,7 @@
         }
     },
     "result_page": {
+        "player_correct_questions": "Respostas corretas",
         "player_name": "Nome do jogador",
         "custom_field": "Campo personalizado",
         "average_score": "Pontuação média: {{average_score}}",
