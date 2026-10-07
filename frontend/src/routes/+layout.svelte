@@ -35,8 +35,8 @@ SPDX-License-Identifier: MPL-2.0
 	let start_language = 'pt_BR';
 	const rtl_languages = ['he', 'prs', 'ps'];
 	if (browser) {
-		start_language = localStorage.getItem('language') ?? 'pt_BR';
-		document.documentElement.lang = start_language === 'pt_BR' ? 'pt-BR' : start_language;
+		localStorage.setItem('language', 'pt_BR');
+		document.documentElement.lang = 'pt-BR';
 		document.documentElement.dir = rtl_languages.includes(start_language) ? 'rtl' : 'ltr';
 	}
 	initLocalizationContext(start_language);

@@ -56,7 +56,7 @@ SPDX-License-Identifier: MPL-2.0
 
 	<div class="bg-gray-700">
 		<p>
-			Consider following
+			Siga
 			<svg
 				class="inline-block h-4 w-4"
 				fill="#6364FF"
@@ -73,7 +73,7 @@ SPDX-License-Identifier: MPL-2.0
 				rel="me"
 				class="underline text-blue-300 hover:text-blue-500 transition"
 				>@classquiz@fosstodon.org</a
-			> for updates!
+			> para acompanhar as novidades!
 		</p>
 	</div>
 </footer>
